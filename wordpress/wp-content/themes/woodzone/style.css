@@ -1,0 +1,24 @@
+/*
+Theme Name: Woodzone
+Description: Woodzone is a modern and clean WordPress theme designed for carpenters, craftsmen, woodworking projects, furniture repair and services, construction, handymen, and all types of carpentry businesses. Fully compatible with the WordPress Block Editor, this theme offers a professional design with a 100% responsive layout and is easy to customize, no coding skills needed.
+Author: Jegstudio
+Author URI: https://support.jegtheme.com/
+Theme URI: https://fse.jegtheme.com/woodzone/
+Version: 1.0.0
+Stable tag: 1.0.0
+Requires at least: 6.2
+Tested up to: 6.6
+Requires PHP: 7.4
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: woodzone
+Tags: block-patterns,custom-colors,custom-logo,custom-menu,editor-style,featured-images,full-site-editing
+Copyright: © Jegstudio. All rights reserved.
+*/
+
+:root{
+    
+}
+.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > .block-library-block__reusable-block-container {
+    max-width: 100%;
+}
