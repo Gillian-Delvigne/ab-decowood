@@ -1,0 +1,59 @@
+Log created: 2024-12-08 19:47:22
+Type: backup
+[2024-12-08 19:47:23][notice]Start backing up.
+[2024-12-08 19:47:23][notice]server info fcgi:On max execution time: 180 wp version:6.7.1 php version:8.2.20 db version:8.0.35 php ini:safe_mode: memory_limit:256M memory_get_usage:57,30 Mo memory_get_peak_usage:58,18 Mo extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2024-12-08 19:47:23][notice]Prepare to backup backup_db files.
+[2024-12-08 19:47:23][notice]Start exporting database.
+[2024-12-08 19:47:23][notice]Preparing to dump table wp_links
+[2024-12-08 19:47:23][notice]Preparing to dump table wp_term_relationships
+[2024-12-08 19:47:23][notice]Preparing to dump table wp_commentmeta
+[2024-12-08 19:47:23][notice]Preparing to dump table wp_term_taxonomy
+[2024-12-08 19:47:23][notice]Preparing to dump table wp_termmeta
+[2024-12-08 19:47:23][notice]Preparing to dump table wp_terms
+[2024-12-08 19:47:23][notice]Preparing to dump table wp_usermeta
+[2024-12-08 19:47:23][notice]Preparing to dump table wp_users
+[2024-12-08 19:47:23][notice]Preparing to dump table wp_comments
+[2024-12-08 19:47:23][notice]Preparing to dump table wp_postmeta
+[2024-12-08 19:47:23][notice]Preparing to dump table wp_options
+[2024-12-08 19:47:23][notice]Preparing to dump table wp_posts
+[2024-12-08 19:47:23][notice]Exporting database finished.
+[2024-12-08 19:47:23][notice]Start compressing database
+[2024-12-08 19:47:23][notice]Prepare to zip file. file: localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_db.sql
+[2024-12-08 19:47:23][notice]Adding zip files completed.localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_db.part001.zip, filesize: 964,66 Ko
+[2024-12-08 19:47:23][notice]Compressing database completed
+[2024-12-08 19:47:23][notice]Backing up backup_db completed.
+[2024-12-08 19:47:23][notice]Prepare to backup backup_themes files.
+[2024-12-08 19:47:23][notice]Compressing zip file:localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_themes.part001.zip index:331
+[2024-12-08 19:47:24][notice]Compressing zip file:localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_themes.part001.zip success. index:331 file size:10,54 Mo
+[2024-12-08 19:47:24][notice]Backing up backup_themes completed.
+[2024-12-08 19:47:24][notice]Prepare to backup backup_plugin files.
+[2024-12-08 19:47:24][notice]Compressing zip file:localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_plugin.part001.zip index:1305
+[2024-12-08 19:47:26][notice]Compressing zip file:localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_plugin.part001.zip success. index:1305 file size:14,04 Mo
+[2024-12-08 19:47:26][notice]Backing up backup_plugin completed.
+[2024-12-08 19:47:26][notice]Prepare to backup backup_uploads files.
+[2024-12-08 19:47:26][notice]Compressing zip file:localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_uploads.part001.zip index:629
+[2024-12-08 19:47:30][notice]Compressing zip file:localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_uploads.part001.zip success. index:629 file size:61,50 Mo
+[2024-12-08 19:47:30][notice]Backing up backup_uploads completed.
+[2024-12-08 19:47:30][notice]Prepare to backup backup_content files.
+[2024-12-08 19:47:30][notice]Compressing zip file:localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_content.part001.zip index:78
+[2024-12-08 19:47:30][notice]Compressing zip file:localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_content.part001.zip success. index:78 file size:1,39 Mo
+[2024-12-08 19:47:30][notice]Backing up backup_content completed.
+[2024-12-08 19:47:30][notice]Prepare to backup backup_core files.
+[2024-12-08 19:47:30][notice]Compressing zip file:localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_core.part001.zip index:2797
+[2024-12-08 19:47:34][notice]Compressing zip file:localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_core.part001.zip success. index:2797 file size:14,35 Mo
+[2024-12-08 19:47:35][notice]Backing up backup_core completed.
+[2024-12-08 19:47:35][notice]Prepare to backup backup_merge files.
+[2024-12-08 19:47:35][notice]Prepare to zip file. file: localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_db.zip
+[2024-12-08 19:47:35][notice]Adding zip files completed.localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_all.part001.zip, filesize: 888,99 Ko
+[2024-12-08 19:47:35][notice]Prepare to zip file. file: localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_themes.zip
+[2024-12-08 19:47:36][notice]Adding zip files completed.localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_all.part001.zip, filesize: 11,37 Mo
+[2024-12-08 19:47:36][notice]Prepare to zip file. file: localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_plugin.zip
+[2024-12-08 19:47:36][notice]Adding zip files completed.localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_all.part001.zip, filesize: 25,19 Mo
+[2024-12-08 19:47:36][notice]Prepare to zip file. file: localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_uploads.zip
+[2024-12-08 19:47:39][notice]Adding zip files completed.localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_all.part001.zip, filesize: 86,38 Mo
+[2024-12-08 19:47:39][notice]Prepare to zip file. file: localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_content.zip
+[2024-12-08 19:47:39][notice]Adding zip files completed.localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_all.part001.zip, filesize: 87,77 Mo
+[2024-12-08 19:47:39][notice]Prepare to zip file. file: localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_core.zip
+[2024-12-08 19:47:39][notice]Adding zip files completed.localhost_wpvivid-656547af27eed_2024-12-08-19-47_backup_all.part001.zip, filesize: 101,70 Mo
+[2024-12-08 19:47:39][notice]Backing up backup_merge completed.
+[2024-12-08 19:47:39][notice]Backup completed.
